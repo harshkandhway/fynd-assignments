@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theaming</title>
+    <style>
+        
+        .outer-design{
+            border-radius: 5px;
+            margin-bottom: 12px;
+        }
+
+        
+        .theme{
+            color: white;
+            padding: 15px;
+            font-size: 15px;
+        }        
+        #content{
+            padding: 10px;
+        }
+
+        .btn-primary{
+            white-space: nowrap; 
+            overflow:hidden;
+            text-overflow: ellipsis;
+        }
+
+        .btn-secondary{
+            white-space: nowrap; 
+            overflow:hidden;
+            text-overflow: ellipsis;
+        }
+
+        .btn-error{
+            white-space: nowrap; 
+            overflow:hidden;
+            text-overflow: ellipsis;
+        }
+
+    </style>
+    <link rel="stylesheet" href="css\color.css">
+</head>
+<body>
+    <div id="outer" class="outer-design">
+        <div class="theme panel-primary">
+            What is CSS?
+        </div>
+        <div id = "content">
+            CSS is a language used for styling web pages. It stands for Cascading Style Sheet.
+        </div>
+    </div>
+
+    <div id="outer1" class="outer-design">
+        <div class="theme panel-secondary">
+            What is CSS?
+        </div>
+        <div id = "content">
+            CSS is a language used for styling web pages. It stands for Cascading Style Sheet.
+        </div>
+    </div>
+
+    <div id="outer2" class="outer-design">
+        <div class="theme panel-error">
+            What is CSS?
+        </div>
+        <div id = "content">
+            CSS is a language used for styling web pages. It stands for Cascading Style Sheet.
+        </div>
+    </div>
+
+    <button class="theme btn-primary panel-primary">
+        Buy Now!
+    </button>
+
+    <button class="theme btn-secondary panel-secondary">
+        Buy Now!
+    </button>
+
+    <button class="theme btn-error panel-error">
+        Buy Now!
+    </button>
+
+    <a href="https://www.google.com" class="theme btn-primary panel-primary">Google search</a>
+</body>
+</html>
