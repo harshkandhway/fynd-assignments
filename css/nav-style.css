@@ -1,0 +1,43 @@
+.navigation{
+    position:fixed;
+    background-color:navy;
+    top: 0;
+    width: 100%;
+    font-size: 24px;
+    height: 64px;
+    overflow: hidden;
+    right: 0;
+    left: 0;
+}
+.menu{
+    margin: 16px;
+    padding: 0;
+    
+}
+.menu li{
+    display: inline;
+    color: lightgray;
+    list-style-type: none;
+
+}
+
+.menu a{
+    padding: 16px 16px;
+    color: lightgray;
+    text-decoration: none;
+}
+.menu a:hover{
+    border-bottom:5px solid crimson;
+    color:white;
+}
+.logo-img{
+    height: 35px;
+    width: 35px;
+    float: left;
+    position: relative;
+    margin: 12px;
+    margin-left: 80px;
+}
+.logo-img:hover{
+    filter: contrast(150%);
+}
