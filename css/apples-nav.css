@@ -1,0 +1,17 @@
+.navigation{
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.menus{
+    
+}
+    
+.menus li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 40px;
+}
